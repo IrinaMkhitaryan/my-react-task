@@ -1,6 +1,6 @@
 import React from 'react';
 
-import image from '../../assets/SVG/page-layout-3-content-palcaeholder.svg';
+import image from '../../assets/SVG/page-layout-3-content-palcaeholder-small.svg';
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 

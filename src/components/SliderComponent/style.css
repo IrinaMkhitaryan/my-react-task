@@ -4,6 +4,6 @@
 .thumb {
     display: block !important;
 }
-.carousel .carousel-slider{
-    order: 2;
+.carousel.carousel-slider {
+    order: 2 !important;
 }

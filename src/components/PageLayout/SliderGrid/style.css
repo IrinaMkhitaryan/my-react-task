@@ -8,4 +8,23 @@
 }
 .textContent {
     width: 50%;
+    margin-left: 20px;
+}
+.redButton {
+    background: red;
+    border-radius: 30px;
+    padding: 5px 25px;
+    color: white;
+    border: 1px solid red;
+    margin-right: 10px;
+    margin-top: 10px
+
+}
+.new-list {
+    list-style: none;
+    padding-left: 0px;
+}
+.new-list li::before {
+    content: "\2022";
+    color: red;
 }
