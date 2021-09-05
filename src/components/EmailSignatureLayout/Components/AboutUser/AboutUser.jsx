@@ -1,4 +1,5 @@
 import React from "react";
+
 import './style.css'
 
 function AboutUser(props) {
@@ -7,11 +8,11 @@ function AboutUser(props) {
         right
     } = props;
     return (
-        <div className='user' style={{ width: center || right ? '80%' : '40%'}}>
+        <div className='user' style={{ width: center || right ? '80%' : '40%' }}>
             <div className={center ? 'alignRight' : ''}>
                 <div>
-                <h5>Name Surname</h5>
-                <div>Web Developer</div>
+                    <h5>Name Surname</h5>
+                    <div>Web Developer</div>
                 </div>
             </div>
             <div>Lorem Ipsum is simply dummy text of the printing anf
@@ -20,5 +21,6 @@ function AboutUser(props) {
             </div>
         </div>
     )
- }
- export default AboutUser
+}
+
+export default React.memo(AboutUser);

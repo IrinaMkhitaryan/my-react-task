@@ -7,20 +7,20 @@ import ButtonComponent from "../../ButtonComponent/ButtonComponent";
 import { createRef } from "react/cjs/react.production.min";
 
 function AlignCenterLayout() {
-    const inputRef = createRef();
+    const componentRef = createRef();
     return (
         <>
-        <div className='centerContent' ref={inputRef}>
-            <div className='userInfo'>
-                 <img src={image} alt='image'/>
-                <AboutUser center={true}/>
-            </div>
-            <div className='socialIcon'><SocialContent/></div>
+            <div className='centerContent' ref={componentRef}>
+                <div className='userInfo'>
+                    <img src={image} alt='image'/>
+                    <AboutUser center={true}/>
+                </div>
+                <div className='socialIcon'><SocialContent/></div>
 
-        </div>
-            <div className='exportButton'> <ButtonComponent inputRef={inputRef} template='fff'/></div>
-            </>
+            </div>
+            <div className='exportButton'><ButtonComponent componentRef={componentRef}/></div>
+        </>
 
     )
 }
-export default AlignCenterLayout
+export default React.memo(AlignCenterLayout);

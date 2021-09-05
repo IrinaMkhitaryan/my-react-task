@@ -1,8 +1,10 @@
 import React, { useState } from "react";
-import './stile.css'
-import { renderToString } from "react-dom";
+
 import EmailSignatureLayout from "./EmailSignatureLayout/EmailSignatureLayout";
+
 import PageLayout from "./PageLayout/PageLayout";
+
+import './stile.css'
 
 function SelectBox() {
     const options = [
@@ -42,4 +44,4 @@ function SelectBox() {
         </div>
     )
 }
-export default SelectBox;
+export default React.memo(SelectBox);

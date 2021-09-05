@@ -1,7 +1,11 @@
 import React from 'react';
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
+
 import image from '../../assets/SVG/page-layout-3-content-palcaeholder.svg';
+
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+
+import { Carousel } from 'react-responsive-carousel';
+
 import './style.css';
 
 function SliderComponent() {
@@ -19,4 +23,4 @@ function SliderComponent() {
         </Carousel>
     )
 }
-export default SliderComponent
+export default React.memo(SliderComponent);

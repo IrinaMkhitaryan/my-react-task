@@ -1,13 +1,14 @@
 import React, { useState } from "react";
-import AlignLeftLayout from './AlignLeftLayout/AlignLeftLayout'
+
 import layout1 from "../../assets/SVG/email-layout1.svg";
 import layout2 from "../../assets/SVG/email-layout2.svg";
 import layout3 from "../../assets/SVG/email-layout3.svg";
-import './style.css'
+
 import AlignCenterLayout from "./AlignCenterLayout/AlignCenterLayout";
-import AlignRightLayout from "./AlignRightLayout/AlignRightLayout";
+import AlignRightLayout  from "./AlignRightLayout/AlignRightLayout";
+import AlignLeftLayout   from './AlignLeftLayout/AlignLeftLayout'
 
-
+import './style.css'
 
 function EmailSignatureLayout() {
     const [active, setActive] = useState({align: 'left'});
@@ -26,4 +27,4 @@ function EmailSignatureLayout() {
     )
 }
 
-export default EmailSignatureLayout;
+export default React.memo(EmailSignatureLayout);
