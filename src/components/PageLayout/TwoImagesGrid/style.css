@@ -1,0 +1,34 @@
+.contentTwoImageGrid {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.contentTwoImageGrid2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    width: 45%;
+}
+.userContent {
+    display: flex;
+    /*width: 50%;*/
+}
+.socialTwoImage {
+    display: flex;
+    width: 50%;
+}
+.share1 {
+    width: 27%;
+}
+.socCont {
+    width: 50%
+}
+.textUser {
+    width: 50%;
+}
+.text {
+   margin-top: 10px;
+    margin-bottom: 10px;
+}

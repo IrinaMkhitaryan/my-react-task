@@ -1,0 +1,26 @@
+
+.centerContent {
+    display: flex;
+    padding: 100px;
+    width: 50%;
+}
+.userInfo {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.userInfo img {
+    margin-bottom: 10px;
+}
+.socialIcon {
+   width: 20%;
+    align-self: flex-end;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+.exportButton {
+    text-align: end;
+    width: 50%;
+}
+

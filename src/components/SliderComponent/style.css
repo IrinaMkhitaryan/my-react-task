@@ -1,0 +1,9 @@
+.carousel-root {
+    display: flex;
+}
+.thumb {
+    display: block !important;
+}
+.carousel .carousel-slider{
+    order: 2;
+}

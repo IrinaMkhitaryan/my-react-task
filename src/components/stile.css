@@ -1,0 +1,24 @@
+.selectContent select {
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    color: grey;
+}
+.content {
+    padding: 20px;
+}
+.selectContent {
+    color: grey;
+
+}
+.selectContent div {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.templateType {
+    margin-top: 30px;
+    font-size: 12px;
+    color: grey;
+    margin-bottom: 10px;
+}
+

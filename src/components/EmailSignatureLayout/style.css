@@ -1,0 +1,27 @@
+.templateTypeContent {
+    display: flex;
+    justify-content: space-between;
+    width: 50%
+
+}
+.templateTypeContent img{
+    width: 100%;
+    border-radius: 10px;
+    height: 205px;
+
+}
+
+.templateTypeContent div{
+    width: 30%;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+.templateTypeContent div.active {
+    border-color: red;
+    color: red
+}

@@ -1,0 +1,8 @@
+.socialContent {
+    display: flex;
+    justify-content: space-around;
+}
+.social {
+    width: 30px;
+    height: 30px
+}

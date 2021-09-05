@@ -1,0 +1,12 @@
+.contentRight {
+    display: flex;
+    padding: 100px;
+    width: 50%
+
+}
+.aboutUser {
+   width: 50%;
+}
+.imageSocial {
+    margin-left: 60px;
+}

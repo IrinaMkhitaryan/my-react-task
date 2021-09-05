@@ -1,0 +1,14 @@
+.contentItem {
+    display: flex;
+    padding: 100px;
+    width: 50%
+
+}
+.contentItem div:first-child {
+    display: flex;
+    flex-direction: column;
+}
+
+h5 {
+    margin-top: 0px;
+}
